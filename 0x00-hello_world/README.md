@@ -1,1 +1,1 @@
-print a C code
+use prinf
