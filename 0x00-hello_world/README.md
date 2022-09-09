@@ -1,1 +1,1 @@
-use prinf
+print the sizes of datatypes
