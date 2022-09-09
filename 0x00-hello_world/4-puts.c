@@ -1,7 +1,8 @@
  #include <stdio.h>
 
 /**
- * main -print the string of the function 
+ * main - print the string of the function
+ *
  * Return: 0
  */
 int main(void)
