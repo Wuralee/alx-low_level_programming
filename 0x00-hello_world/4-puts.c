@@ -2,7 +2,6 @@
 
 /**
  * main - print the string of the function
- *
  * 
  * Return: 0
  */
