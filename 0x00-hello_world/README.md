@@ -1,1 +1,1 @@
-run a c file through a preprocessor
+compile a C file but do not link
