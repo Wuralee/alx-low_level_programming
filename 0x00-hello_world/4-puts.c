@@ -1,10 +1,9 @@
  #include <stdio.h>
 
- /**
- * main - print the string in the puts function
+/**
+ * main - print the string of the function
  *
- * Description: use the main function
- * this program prints "Programming is like building a multilingual puzzle"
+ * Description: the programme prints "Programming is like building a multilingual puzzle
  * Return: 0
  */
 int main(void)
