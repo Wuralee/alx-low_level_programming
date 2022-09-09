@@ -1,1 +1,1 @@
-compile a C file and create and executable file
+print a C code
