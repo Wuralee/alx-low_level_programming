@@ -2,13 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - print result if number is positive, zero and negative
- *
- * Description: using the main fuction
+/**
+ * main - Entry point
  *
  * Return: 0
  */
+
+/* Description: print the result if n is positive, zero and negative */
 int main(void)
 {
 	int n;
@@ -18,15 +18,15 @@ int main(void)
 		/* code goes here */
 	if (n > 0)
 	{
-		printf("%i is positive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("i% is zero\n", n);
+		printf("d% is zero\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("i% is negative\n", n);
+		printf("d% is negative\n", n);
 	}
 	return (0);
 }
