@@ -1,1 +1,1 @@
-C variables
+print all except
