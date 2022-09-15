@@ -5,6 +5,7 @@
  * @prod - is the result of the multiplied value
  * @mult - is the mulipilication sign
  * @num - is the number used to carry out the task
+ */
 
 void times_table(void)
 {
