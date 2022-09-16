@@ -1,5 +1,7 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
+
+#include <stdio.h>
 
 /**
  * main - header file for prototypes
@@ -20,4 +22,4 @@ void print_square(int size);
 void print_triangle(int size);
 void print_numbers(int n);
 
-#endif /* MAIN_H */
+#endif 
