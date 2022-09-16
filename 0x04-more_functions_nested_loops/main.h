@@ -5,6 +5,7 @@
  * main - header file for prototypes
  * void prototypes (void)
  * int prototypes (int)
+ */
 
 int _putchar(char c);
 int _isupper(int c);
