@@ -4,7 +4,7 @@
  * int_strlen - print a function that returns the length of a string
  * @s:string in function
  *
- * Return: ch
+ * Return: 0
  */
 
 int_strlen(char *s)
@@ -15,5 +15,5 @@ int_strlen(char *s)
 	{
 		ch++;
 	}
-	return (ch);
+	return (0);
 }
