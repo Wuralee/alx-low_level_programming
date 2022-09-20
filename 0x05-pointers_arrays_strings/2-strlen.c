@@ -9,11 +9,11 @@
 
 int_strlen(char *s)
 {
-	int ch = 0;
+	int c = 0;
 
 	for (; *s != '\0'; s++)
 	{
-		ch++;
+		c++;
 	}
-	return (0);
+	return (c);
 }
