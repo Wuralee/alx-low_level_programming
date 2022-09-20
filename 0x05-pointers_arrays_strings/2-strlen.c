@@ -4,16 +4,16 @@
  * int _strlen - print a function that returns the length of a string
  * @s:string in function
  *
- * Return: 0
+ * Return: string length
  */
 
 int _strlen(char *s)
 {
-	int sl = 0;
+	int c = 0;
 
 	for (; *s != '\0'; s++)
 	{
-		sl++;
+		c++;
 	}
-	return (0);
+	return (c);
 }
