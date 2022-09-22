@@ -5,18 +5,24 @@
  * @dest: a pointer to the string to be concatenated upon
  * @src: the source string to be appended to @dest
  *
- * Return: @dest
+ * Return: to @des
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int index = 0, det_len = 0;
+	int dest_len = 0 i;
 
-	while (dest[index++])
+	while (dest[dest_len])
+	{
 		dest_len++;
+	}
 
-	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
+	for (i = 0; src[i]; != 0; i++)
+	{
+		dest[dest_len++] = src[i];
+	}
+	
+	dest[des_len] = '\0';
 
 	return (dest);
 }
