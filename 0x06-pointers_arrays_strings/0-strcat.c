@@ -8,21 +8,22 @@
  *
  * Return: to destination
  */
+
 char *_strcat(char *dest, char *src)
 {
-	int dest_len = 0, i;
+	int dlen = 0, i;
 
-	while (dest[dest_len])
+	while (dest[dlen])
 	{
-		dest_len++;
+		dlen++;
 	}
 
 	for (i = 0; src[i]; != 0; i++)
 	{
-		dest[dest_len++] = src[i];
-		dest_len++;
+		dest[dlen++] = src[i];
+		dlen++;
 	}
 
-	dest[des_len] = '\0';
+	dest[dlen] = '\0';
 	return (dest);
 }
