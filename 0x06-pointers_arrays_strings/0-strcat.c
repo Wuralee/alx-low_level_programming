@@ -7,8 +7,8 @@
  * @src: the source string
  *
  * Return: to destination
+ *
  */
-
 char *_strcat(char *dest, char *src)
 {
 	int dlen = 0, i;
@@ -25,5 +25,6 @@ char *_strcat(char *dest, char *src)
 	}
 
 	dest[dlen] = '\0';
+
 	return (dest);
 }
