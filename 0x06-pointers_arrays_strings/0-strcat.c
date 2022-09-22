@@ -2,12 +2,11 @@
 
 /**
  * _strcat - print a function that concatenates two strings
- * @dest: a pointer to the string to be concatenated upon
- * @src: the source string to be appended to @dest
+ * @dest: the destination string
+ * @src: the source string
  *
  * Return: to @des
  */
-
 char *_strcat(char *dest, char *src)
 {
 	int dest_len = 0 i;
@@ -20,6 +19,7 @@ char *_strcat(char *dest, char *src)
 	for (i = 0; src[i]; != 0; i++)
 	{
 		dest[dest_len++] = src[i];
+		dest_len++;
 	}
 	
 	dest[des_len] = '\0';
