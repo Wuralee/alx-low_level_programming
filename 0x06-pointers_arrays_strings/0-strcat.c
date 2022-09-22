@@ -5,7 +5,7 @@
  * @dest: the destination string
  * @src: the source string
  *
- * Return: to @des
+ * Return: to destination
  */
 char *_strcat(char *dest, char *src)
 {
@@ -23,6 +23,5 @@ char *_strcat(char *dest, char *src)
 	}
 	
 	dest[des_len] = '\0';
-
 	return (dest);
 }
