@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'C Recursion 1' > README.md
+echo 'C Recursion 2' > README.md
